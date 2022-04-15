@@ -12,6 +12,7 @@ sh_binary(
         "requirements.txt",
         "setup.py",
         "//scann/scann_ops/py:scann",
+        "//scann/proto:restricts_pb2",
     ],
     tags = [
         "local",

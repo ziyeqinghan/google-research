@@ -3,6 +3,10 @@ package(
     licenses = ["notice"],
 )
 
+py_library(
+  name = "restricts_pb2",
+  srcs = ["restricts_pb2.py"],
+)
 # Generated Files
 # ==================================================================
 
